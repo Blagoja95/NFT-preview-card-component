@@ -1,0 +1,25 @@
+@media (max-width: 375px){
+    html{
+        font-size: 50%;
+    }
+
+    .card {
+        width: 42rem;
+    }
+
+    .box-size {
+        width: 38rem;
+    }
+
+    .image-equilibrium-box {
+        margin-top: 2rem;
+    }
+
+    .author {
+        padding-bottom: 2rem;
+    }
+
+    .attribution {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 2.3rem;
+}
+
+.card {
+    width: 55rem;
+    margin: 10rem auto 0 auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+
+    box-shadow: 0 26px 30px rgba(51, 51, 51, 0.2);
+
+}
+.image-equilibrium-box {
+    margin-top: 4rem;
+    position: relative;
+}
+
+.image-equilibrium-box:hover::after{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 99%;
+    border-radius: 12px;
+    background-color: hsla(178, 100%, 50%, 0.4);
+    transform: translateX(-100%);
+    background-image: url("../images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8rem;
+}
+.equilibrium{
+    border-radius: 12px;
+}
+
+.box-size {
+    width: 45rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.title {
+    color: hsl(0, 0%, 100%);
+}
+
+.title:hover,
+.name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.description {
+    color:hsl(215, 51%, 70%);
+    font-size: 2.6rem;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-price {
+    font-weight: 600;
+}
+.offer-price,
+.offer-time {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    color:hsl(215, 51%, 70%);
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 3rem;
+
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    border-top: 2px solid hsl(215, 32%, 27%);
+}
+
+.autors-avatar{
+    height: 6rem;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.autors-name {
+    font-size: 2.2rem;
+    color:hsl(215, 51%, 70%);
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
